@@ -84,8 +84,7 @@ exports.book_create_get = function(req, res, next) {
     }, function(err, results) {
         if (err) { return next(err); }
         res.render('book_form', { title: 'Create Book', authors: results.authors, genres: results.genres });
-    });
-    
+    });   
 };
 
 // Handle book create on POST.
