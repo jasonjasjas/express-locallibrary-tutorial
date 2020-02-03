@@ -87,7 +87,6 @@ exports.book_create_get = function(req, res, next) {
     });
     
 };
-};
 
 // Handle book create on POST.
 exports.book_create_post = [
